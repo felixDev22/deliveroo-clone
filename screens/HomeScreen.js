@@ -1,33 +1,29 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, SafeAreaView, View, Image } from 'react-native';
 import React, { useLayoutEffect } from 'react';
 import { useNavigation } from '@react-navigation/native';
+import { homestyles } from '../styles/Home';
+import { globalStyles } from '../styles/global';
 
 const HomeScreen = () => {
   const navigation = useNavigation();
 
   useLayoutEffect(() => {
     navigation.setOptions({
-      headersTitle: 'DELIVEROO',
+      headerTitle: 'DELIVEROO',
     });
   }, []);
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.home}>HomeScreen</Text>
-    </View>
+    <SafeAreaView style={globalStyles.container}>
+      <View>
+        <Text style={homestyles.home}>HomeScreen</Text>
+        <Image
+          source={require('../assets/profile.png')}
+          style={globalStyles.profilePic}
+        />
+      </View>
+    </SafeAreaView>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-  },
-  home: {
-    flex: 1,
-    backgroundColor: '#680747',
-    color: '#fff',
-  },
-});
 
 export default HomeScreen;
