@@ -3,6 +3,7 @@ import React, { useLayoutEffect } from 'react';
 import { useNavigation } from '@react-navigation/native';
 import { homestyles } from '../styles/Home';
 import { globalStyles } from '../styles/global';
+import Down from 'react-native-vector-icons/FontAwesome5';
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -22,7 +23,10 @@ const HomeScreen = () => {
         />
         <View>
           <Text style={homestyles.font1}>Deliver Now!</Text>
-          <Text style={homestyles.font2}>Current Location</Text>
+          <Text style={homestyles.font2}>
+            Current Location
+            <Down name="chevron-down" style={homestyles.down} />
+          </Text>
         </View>
       </View>
     </SafeAreaView>
