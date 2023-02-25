@@ -16,4 +16,7 @@ export const homestyles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 800,
   },
+  down: {
+    color: '#00C2B3',
+  },
 });
