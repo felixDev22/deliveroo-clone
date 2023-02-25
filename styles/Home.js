@@ -36,14 +36,18 @@ export const homestyles = StyleSheet.create({
     gap: 5,
   },
   inputBox: {
+    flex: 1,
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
     gap: 5,
-    borderWidth: 1,
     padding: 10,
-    backgroundColor: '#606470',
+    backgroundColor: '#1111',
     margin: 8,
     width: 200,
+  },
+  MenuChange: {
+    fontSize: 25,
+    color: '#00C2B3',
   },
 });

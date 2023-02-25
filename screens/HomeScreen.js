@@ -45,7 +45,7 @@ const HomeScreen = () => {
             style={homestyles.input}
           />
         </View>
-        <MenuChange name="menuunfold" />
+        <MenuChange name="menuunfold" style={homestyles.MenuChange} />
       </View>
     </SafeAreaView>
   );
