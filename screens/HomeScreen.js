@@ -15,8 +15,8 @@ const HomeScreen = () => {
 
   return (
     <SafeAreaView style={globalStyles.container}>
-      <View>
-        <Text style={homestyles.home}>HomeScreen</Text>
+      <View style={homestyles.home}>
+        <Text>HomeScreen</Text>
         <Image
           source={require('../assets/profile.png')}
           style={globalStyles.profilePic}
