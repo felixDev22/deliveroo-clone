@@ -18,5 +18,10 @@ export const homestyles = StyleSheet.create({
   },
   down: {
     color: '#00C2B3',
+    fontSize: 15,
+  },
+  user: {
+    color: '#00C2B3',
+    fontSize: 25,
   },
 });
