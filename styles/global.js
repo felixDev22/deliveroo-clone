@@ -2,8 +2,7 @@ import { StyleSheet } from 'react-native';
 
 export const globalStyles = StyleSheet.create({
   container: {
-    marginVertical: 10,
-    marginHorizontal: 20,
+    marginHorizontal: 10,
   },
   profilePic: {
     height: 50,
