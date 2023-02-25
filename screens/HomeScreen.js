@@ -16,11 +16,14 @@ const HomeScreen = () => {
   return (
     <SafeAreaView style={globalStyles.container}>
       <View style={homestyles.home}>
-        <Text>HomeScreen</Text>
         <Image
           source={require('../assets/profile.png')}
           style={globalStyles.profilePic}
         />
+        <View>
+          <Text style={homestyles.font1}>Deliver Now!</Text>
+          <Text style={homestyles.font2}>Current Location</Text>
+        </View>
       </View>
     </SafeAreaView>
   );
