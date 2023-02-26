@@ -7,12 +7,13 @@ export const categoryStyles = StyleSheet.create({
   topImage: {
     height: 70,
     width: 70,
-    borderRadius: 20,
+    borderRadius: 10,
     position: 'relative',
+    marginHorizontal: 5,
   },
   topText: {
     position: 'absolute',
     top: 5,
-    left: 5,
+    left: 7,
   },
 });

@@ -6,6 +6,7 @@ export const homestyles = StyleSheet.create({
   },
 
   home: {
+    marginHorizontal: 10,
     marginVertical: 45,
     display: 'flex',
     alignItems: 'center',
@@ -32,6 +33,7 @@ export const homestyles = StyleSheet.create({
     fontSize: 25,
   },
   inputSection: {
+    marginHorizontal: 10,
     display: 'flex',
     alignItems: 'center',
     flexDirection: 'row',
