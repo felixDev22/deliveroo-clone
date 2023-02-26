@@ -15,5 +15,6 @@ export const categoryStyles = StyleSheet.create({
     position: 'absolute',
     top: 5,
     left: 7,
+    color: '#fff',
   },
 });
