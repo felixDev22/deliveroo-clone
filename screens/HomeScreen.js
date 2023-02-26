@@ -27,7 +27,7 @@ const HomeScreen = () => {
   }, []);
 
   return (
-    <SafeAreaView style={globalStyles.container}>
+    <SafeAreaView>
       <View style={homestyles.top}>
         <View style={homestyles.home}>
           <Image
