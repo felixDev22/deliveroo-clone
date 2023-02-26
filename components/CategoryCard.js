@@ -6,7 +6,7 @@ const CategoryCard = ({ title }) => {
   return (
     <TouchableOpacity>
       <Image
-        source={require('../assets/food1.jpg')}
+        source={require('../assets/food2.jpg')}
         style={categoryStyles.topImage}
       />
       <Text style={categoryStyles.topText}>{title}</Text>
