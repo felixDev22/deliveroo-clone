@@ -1,18 +1,20 @@
 import { StyleSheet } from 'react-native';
 
 export const homestyles = StyleSheet.create({
+  top: {
+    backgroundColor: '#fff',
+  },
+
   home: {
-    marginVertical: 30,
+    marginVertical: 45,
     display: 'flex',
     alignItems: 'center',
     flexDirection: 'row',
     gap: 5,
-    backgroundColor: '#fff',
   },
   rightSide: {
     flex: 1,
   },
-
   font1: {
     color: '#606470',
     fontSize: 13,
@@ -33,7 +35,7 @@ export const homestyles = StyleSheet.create({
     display: 'flex',
     alignItems: 'center',
     flexDirection: 'row',
-    gap: 5,
+    marginTop: -40,
   },
   inputBox: {
     flex: 1,
